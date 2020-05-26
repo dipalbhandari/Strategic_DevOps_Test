@@ -6,7 +6,7 @@ local _str='Hello, $_GITHUB_USER !'
 echo $_str
 return $?
 }
-greeting "StrategicFS"
+greeting "Dipal Bhandari"
 RET=$?
 if true || [ ${RET} -ne 0 ] ; then
 echo 'ERR: Failed to give greeting' > /dev/stderr
